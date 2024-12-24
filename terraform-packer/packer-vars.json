@@ -1,0 +1,11 @@
+{
+    "aws_access_key": "{{env `AWS_ACCESS_KEY`}}",
+    "aws_secret_key": "{{env `AWS_SECRET_KEY`}}",
+    "region": "us-east-1",
+    "source_ami": "ami-0e2c8caa4b6378d8c",
+    "instance_type": "t2.micro",
+    "ssh_username": "ubuntu",
+    "ami_name": "packer-example-{{timestamp}}",
+    "ami_description": "An example AMI created with Packer",
+    "security_group_id" : "sg-05c2592daab62ed3a"
+}
